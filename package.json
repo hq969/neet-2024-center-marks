@@ -1,0 +1,15 @@
+{
+  "name": "neet-2024-center-marks",
+  "version": "1.0.0",
+  "description": "Generate Neet 2024 Center-Wise marks data",
+  "main": "generate-data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pardhav Maradani",
+  "license": "ISC",
+  "dependencies": {
+    "download": "^8.0.0",
+    "pdf-parse": "^1.1.1"
+  }
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf8">
+    <title>NEET 2024 Center-Wise Marks SQL Interface</title>
+    <meta name="google-site-verification" content="rTHRb2Qt9GWYmRBlBBYHYChhJmlq08L6ASpbgpIvARM" />
+    <!-- Begin Jekyll SEO tag v2.8.0 -->
+    <meta property="og:title" content="NEET 2024 Center-Wise Marks SQL Interface" />
+    <meta property="og:locale" content="en_US" />
+    <meta name="description" content="A browser based SQL Interface for NEET 2024 center-wise marks data, which allows you to explore and analyze using SQL queries." />
+    <meta property="og:description" content="A browser based SQL Interface for NEET 2024 center-wise marks data, which allows you to explore and analyze using SQL queries." />
+    <link rel="canonical" href="https://pardhavmaradani.github.io/neet-2024-center-marks/" />
+    <meta property="og:url" content="https://pardhavmaradani.github.io/neet-2024-center-marks/" />
+    <meta property="og:site_name" content="NEET 2024 Center-Wise Marks SQL Interface" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary" />
+    <meta property="twitter:title" content="NEET 2024 Center-Wise Marks SQL Interface" />
+    <!-- End Jekyll SEO tag -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/codemirror.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <a href="https://github.com/PardhavMaradani/neet-2024-center-marks" target="_blank" class="link-primary link-underline-light">[GitHub Code]</a>
+        <h1 class='mt-2 text-center'>NEET 2024 Center-Wise Marks SQL Interface</h1>
+        <label class="mt-4" for='commands'>Enter some SQL commands (<b>'Ctrl-Enter'</b> to execute):</label>
+        <div class="form-floating">
+            <textarea class="form-control" id="commands"></textarea>
+        </div>
+        <div class="mt-2 text-center">
+            <button id="execute" type="button" class="btn btn-primary">Execute</button>
+        </div>
+        <div id="error" class="mt-4 error"></div>
+        <div id="output" class="table-responsive">Please wait (Downloading DB and setting up)...  Results will be displayed here.</div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.1/mode/sql/sql.min.js"></script>
+    <script type="text/javascript" src="js/interact.js"></script>
+</body>
+
+</html>
