@@ -143,7 +143,7 @@ I am still new to SQL and only know basic querying.  One of the fun ways I found
 
 For example, Times of India (TOI) had a front page article with the analysis of the center-wise marks data released by NTA on the 22nd of July 2024 - the snippet of it can be seen below:
 
-> ![Times of India 22 July 2024 NEET data analysis](images/TOI-22July2024-NEET-data-frontpage.png)
+> ![Times of India 22 July 2024 NEET data analysis](TOI-22July2024-NEET-data-frontpage.png)
 
 I wanted to verify the data in the main table above and other pieces of data mentioned in the article with this SQL Interface.
 
