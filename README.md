@@ -10,11 +10,11 @@ This is a browser based **SQL Interface** for NEET 2024 State / City / Center-Wi
   - All queries work locally in your browser after that
 - The web interface should look something like this:
 
-![NEET 2024 Center-Wise marks SQL Web Interface](images/neet-2024-center-marks-sample1.png)
+![NEET 2024 Center-Wise marks SQL Web Interface](neet-2024-center-marks-sample1.png)
 
 - Enter your **SQL** commands in the textarea and click on the `Execute` button or `Ctrl-Enter` to see the results.
 
-![NEET 2024 Center-Wise marks SQL Web Interface](images/neet-2024-center-marks-sample2.png)
+![NEET 2024 Center-Wise marks SQL Web Interface](neet-2024-center-marks-sample2.png)
 
 - The `db/neet-2024-center-marks-data.db` file can be downloaded and analyzed locally using `sqlite` as well
 - All the CSV's of the data are available separately in the `csv` folder and can be analyzed in any spreadsheet tool
