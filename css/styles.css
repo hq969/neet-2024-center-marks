@@ -1,0 +1,21 @@
+
+.CodeMirror {
+    border: 1px solid #222;
+    height: auto;
+}
+
+.CodeMirror-scroll {
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.error {
+    color: red;
+    transition: .5s;
+    overflow: hidden;
+    margin: 15px;
+}
+
+#output {
+    overflow: auto;
+}
