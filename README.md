@@ -5,7 +5,7 @@ This is a browser based **SQL Interface** for NEET 2024 State / City / Center-Wi
 ## Analyze
 
 - Click [here](https://hq969.github.io/neet-2024-center-marks/) to analyze this data in your browser
-  - The Anaysis URL is https://pardhavmaradani.github.io/neet-2024-center-marks/
+  - The Anaysis URL is https://hq969.github.io/neet-2024-center-marks/
   - > Note that for the very first time, it could take a few seconds / minutes to download the database and set it up depending on your internet speed (The database file is ~38MB)
   - All queries work locally in your browser after that
 - The web interface should look something like this:
